@@ -8,9 +8,13 @@
 // sayHello('Hello, Alice!');
 
 function sayHello(Name) {
-    document.getElementById("p").innerHTML = `Hello,${Name}`;
+    console.log('Hello, '+ Name + "!")
+
 };
-sayHello("alice");
+sayHello('Alice');
+sayHello('Bob')
+
+
 
 
 //task2//
@@ -18,11 +22,11 @@ square = function (number) {
     return number ** 2;
 }
 console.log(square(5)); 
+console.log(square(2));
 
-square = function (num) {
-    return num ** 2;
-}
-console.log(square(2)); 
+
+
+
 
 //task3//
 let x = abc( 2, 3)
@@ -54,22 +58,22 @@ const car = {
 
   //task5//
 
-function Colors(colors) {
+function printColors(colors) {
     for (let i = 0; i < colors.length; i++){
         console.log(colors[i]);
     }
 };
 let colors = ["Red", "Green", "Blue", "Black"];
-Colors(colors); 
+printColors(colors); 
 
 
 //task6*//
 
-function getString(str) {
+function getStringLenght(str) {
     return str.length;
 }
-console.log(getString("Hello"));  
-console.log(getString("JavaScript"));  
+console.log(getStringLenght("Hello"));  
+console.log(getStringLenght("JavaScript"));  
 
 
 //TASK7//
