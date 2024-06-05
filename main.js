@@ -58,28 +58,29 @@ const car = {
 
   //task5//
 
+  let colors = ["Red", "Green", "Blue"];
 function printColors(colors) {
     for (let i = 0; i < colors.length; i++){
         console.log(colors[i]);
     }
 };
-let colors = ["Red", "Green", "Blue", "Black"];
+
 printColors(colors); 
 
 
 //task6*//
 
-function getStringLenght(str) {
+function getStringLength(str) {
     return str.length;
 }
-console.log(getStringLenght("Hello"));  
-console.log(getStringLenght("JavaScript"));  
+console.log(getStringLength("Hello"));  
+console.log(getStringLength("JavaScript"));  
 
 
 //TASK7//
 
-function toUpperCase(str) {
-    return str.toUpperCase();
+function toUpperCase(s) {
+    return s.toUpperCase();
 }
 console.log(toUpperCase("hello")); 
 console.log(toUpperCase("world")); 
@@ -88,8 +89,7 @@ console.log(toUpperCase("world"));
 //TASK8//
 
 function splitString(str, d) {
-    let arr = str.split(d);
-    return arr;
+     return str.split(d)
 }
 console.log(splitString("Hello,World", ",")); 
 console.log(splitString("JavaScript is fun", " "));  
